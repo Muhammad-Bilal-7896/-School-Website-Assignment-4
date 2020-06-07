@@ -142,12 +142,19 @@ user-select: none;
 /* This is glowing text */
 .glow {
   user-select: none;
-  font-size: 80px;
-  color: #fff;
   text-align: center;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+  position: absolute;
+   top: 10%;
+    left: 25%;
+      z-index: -0.5;
+       color:#063146;
+        font-size: 70px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+          user-select: none;
+          
 }
 
 @keyframes glow{
@@ -397,8 +404,23 @@ nav ul li a span.rotate{
 }
 /* This is the container table */
 
+#imgschool{
+  position: absolute;
+   top: 0%; 
+   z-index: -1;
+    width: 100%;
+    height: 625px;
+}
+
+
 /* add responive media queries */
 @media screen and (max-width:700px){
+  #imgschool{
+   
+  }
+  .glow {
+    left: 5%;
+  }
   .sidebar{
     left: -250px;
   }
@@ -411,7 +433,9 @@ nav ul li a span.rotate{
   }
 }
 @media screen and (max-width:800px){
-
+  .glow {
+    left: 5%;
+  }
   #containerwork{
     margin-top: -400px;
     margin-left: 0px;
@@ -421,6 +445,9 @@ nav ul li a span.rotate{
   }
 }
 @media screen and (max-width:500px){
+  .glow {
+    left: 5%;
+  }
 .sidebar{
   height: fit-content;
 }
@@ -436,8 +463,41 @@ nav ul li a span.rotate{
 }
 @media all and (max-width:600px)
 {
+  .glow {
+    left: 5%;
+  }
   .containertable{
     left: 5%;
+  }
+}
+@media all and (max-width:400px)
+{
+  #imgschool{
+   height: 100%;
+  }
+  .glow {
+    left: 5%;
+    font-size: 600px;
+  }
+}
+@media all and (max-width:350px)
+{
+  #imgschool{
+    height: 100%;
+   }
+  .glow {
+    left: 2%;
+    font-size: 60px;
+  }
+}
+@media all and (max-width:290px)
+{
+  #imgschool{
+    height: 100%;
+   }
+  .glow {
+    left: 2%;
+    font-size: 60px;
   }
 }
 /* add responive media queries */

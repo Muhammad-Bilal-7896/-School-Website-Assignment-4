@@ -1,4 +1,4 @@
-alert("Thanks to saylani and sir muhammad ali mughal");
+// alert("Thanks to saylani and sir muhammad ali mughal");
 // function myFunction() {
 //     var x = document.getElementById("logo2");
 //     if (x.style.display = 'block') {
