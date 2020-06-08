@@ -173,7 +173,7 @@ nav ul li{
 }
 nav ul li a{
    margin-left: 0px;
-    border-radius: 50%;
+    border-radius: 10px 10px 10px 10px;
     transition: .5s linear;    
     color:purple;
     background-color:aliceblue;

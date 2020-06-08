@@ -1,3 +1,16 @@
+alert("USERNAME Is 'bilal'\nPassword is '123'");
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.username.value == "bilal" && form.password.value == "123")
+  {
+    window.open('ElearningPortal.html');/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username");/*displays error message*/
+  }
+}
 // alert("Thanks to saylani and sir muhammad ali mughal");
 // function myFunction() {
 //     var x = document.getElementById("logo2");
